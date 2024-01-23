@@ -1,13 +1,11 @@
-
 import Menubar from "@/components/Menubar";
-
+import Toolbox from "@/components/Toolbox";
 
 export default function Home() {
   return (
-    <main
-      className={``}
-    >
-      <Menubar/>
+    <main>
+      <Menubar />
+      <Toolbox />
     </main>
   );
 }

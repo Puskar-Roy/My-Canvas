@@ -1,12 +1,12 @@
 .menuContainer {
   position: absolute;
   left: 50%;
-  top: 2.8rem;
+  bottom: 2.8rem;
   width: 25%;
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
-  border-radius: 10px;
+  border-radius: 15px;
   transform: translateX(-50%);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   .iconWrapper {
