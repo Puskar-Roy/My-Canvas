@@ -17,7 +17,8 @@
     border-radius: 9px;
     height: 40px;
     width: 40px;
-    &:hover ,&.active{
+    &:hover,
+    &.active {
       background-color: rgb(230, 190, 178);
     }
     .icon {
@@ -27,4 +28,10 @@
   }
 }
 
-
+@media (max-width: 550px) {
+  .menuContainer {
+    width: 95%;
+    position: absolute;
+    left: 50%;
+  }
+}
