@@ -1,38 +1,3 @@
-// import { useEffect, useRef } from "react";
-// import styles from "./index.module.css";
-// import { useSelector } from "react-redux";
-
-// const Board = () => {
-//   const canvasRef = useRef(null);
-
-//   const activeMenuItem = useSelector((state) => state.menu.activeMenuItem);
-//   const { color, size } = useSelector(
-//     (state) => state.toolbox[activeMenuItem] || {}
-//   );
-
-//   useEffect(() => {
-//     if (!canvasRef.current) return;
-
-//     const canvas = canvasRef.current;
-//     const context = canvas.getContext("2d");
-//     canvas.width = window.innerWidth;
-//     canvas.height = window.innerHeight;
-//     console.log(color , size);
-
-//     // Rest of your code using color and size
-//   }, [activeMenuItem, color, size]); // Make sure to include dependencies for useEffect
-
-//   return (
-//     <canvas ref={canvasRef}>
-//       <div></div>
-//     </canvas>
-//   );
-// };
-
-// export default Board;
-
-
-
 import { useEffect, useLayoutEffect, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
 
